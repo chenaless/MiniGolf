@@ -1,0 +1,143 @@
+﻿Build started 5/27/2011 6:19:03 PM.
+     1>Project "C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\MiniGolf\MiniGolf.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\MiniGolf.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Ball.cpp Camera.cpp Cup.cpp Hud.cpp InputManager.cpp Level.cpp main.cpp MenuScreen.cpp Overlay.cpp Player.cpp Shader.cpp Tee.cpp Tile.cpp Util.cpp Vector3D.cpp
+         Vector3D.cpp
+         Util.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\util.cpp(6): warning C4244: '=' : conversion from 'double' to 'clock_t', possible loss of data
+         Tile.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(30): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(32): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(33): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(34): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(35): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(36): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(37): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(43): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(128): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(129): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(133): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(134): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(135): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(137): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(138): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(139): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tile.cpp(187): warning C4172: returning address of local variable or temporary
+         Tee.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(7): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(11): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(12): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(13): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(14): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(15): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(16): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\tee.cpp(29): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Shader.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\shader.cpp(89): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\shader.cpp(113): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Player.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\player.cpp(5): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Overlay.cpp
+         MenuScreen.cpp
+         main.cpp
+         Level.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\level.cpp(65): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\level.cpp(69): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+         InputManager.cpp
+         Hud.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\hud.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\hud.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\hud.cpp(75): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\hud.cpp(75): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\hud.cpp(76): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\hud.cpp(77): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         Cup.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(10): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(11): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(14): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(16): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(18): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(20): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(34): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\cup.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+         Camera.cpp
+         Ball.cpp
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\ball.cpp(37): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\aristotle\documents\visual studio 2010\projects\minigolf\minigolf\ball.cpp(38): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\Debug\MiniGolf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MiniGolf.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\Debug\MiniGolf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\Debug\MiniGolf.lib" /MACHINE:X86 Debug\MiniGolf.exe.embed.manifest.res
+         Debug\Ball.obj
+         Debug\Camera.obj
+         Debug\Cup.obj
+         Debug\Hud.obj
+         Debug\InputManager.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MenuScreen.obj
+         Debug\Overlay.obj
+         Debug\Physics.obj
+         Debug\Player.obj
+         Debug\Shader.obj
+         Debug\Tee.obj
+         Debug\Tile.obj
+         Debug\Util.obj
+         Debug\Vector3D.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MiniGolf.exe.embed.manifest" /manifest Debug\MiniGolf.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MiniGolf.exe.embed.manifest.res" Debug\MiniGolf_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\Debug\MiniGolf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MiniGolf.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\Debug\MiniGolf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\Debug\MiniGolf.lib" /MACHINE:X86 Debug\MiniGolf.exe.embed.manifest.res
+         Debug\Ball.obj
+         Debug\Camera.obj
+         Debug\Cup.obj
+         Debug\Hud.obj
+         Debug\InputManager.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MenuScreen.obj
+         Debug\Overlay.obj
+         Debug\Physics.obj
+         Debug\Player.obj
+         Debug\Shader.obj
+         Debug\Tee.obj
+         Debug\Tile.obj
+         Debug\Util.obj
+         Debug\Vector3D.obj
+         MiniGolf.vcxproj -> C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\Debug\MiniGolf.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\MiniGolf.unsuccessfulbuild".
+         Touching "Debug\MiniGolf.lastbuildstate".
+     1>Done Building Project "C:\Users\Aristotle\documents\visual studio 2010\Projects\MiniGolf\MiniGolf\MiniGolf.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.80
